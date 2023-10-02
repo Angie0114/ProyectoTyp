@@ -1,0 +1,23 @@
+.body
+{
+    display: flex;
+}
+.form
+{
+    width: 20%;
+}
+.tabla{
+    margin-left: 10%;
+    width: 70%;
+}
+.tablaContenido{
+    width: 90%;
+    background-color: rgb(29, 194, 194);
+    border-radius: 15%;
+    padding: 10px;
+}
+tr,td,th
+{
+    border: 1px solid rgb(138, 88, 126);
+    padding: 10px;
+}

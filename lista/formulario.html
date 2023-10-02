@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="form">
+        <p>ID</p>
+        <input id="id" type="text">
+        <p>Nombre</p>
+        <input id="nombre" type="text">
+        <p>Cantidad</p>
+        <input id="cantidad" type="text">
+        <p>Precio</p>
+        <input id="precio" type="text">
+        <p>Descripcion</p>
+        <input id="descripcion" type="text">
+        <button id="btn_agregar" name="btn_agregar" class="btn_agregar">Agregar</button>
+    </div>
+    <div>
+        <div class="tabla">
+            <table class="tablaContenido">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>NOMBRE</th>
+                        <th>CANTIDAD</th>
+                        <th>PRECIO</th>
+                        <th>DESCRIPCION</th>
+                        <th>Eliminar</th>
+                    </tr>
+                </thead>
+                <tbody id="TableBody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
